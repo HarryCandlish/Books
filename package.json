@@ -1,0 +1,19 @@
+{
+  "name": "react-express-boilerplate",
+  "version": "1.0.0",
+  "description": "react express boilerplate",
+  "main": "server.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryCandlish/React-Express-Boilerplate.git"
+  },
+  "author": "Harry Candlish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryCandlish/React-Express-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/HarryCandlish/React-Express-Boilerplate#readme"
+}
