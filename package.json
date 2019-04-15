@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/HarryCandlish/React-Express-Boilerplate#readme",
   "dependencies": {
+    "concurrently": "^4.1.0",
     "express": "^4.16.4"
   }
 }
