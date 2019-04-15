@@ -2,14 +2,14 @@ const express = require("express");
 
 const app = express();
 
-app.get("/api/customers", (req, res) => {
-  const customers = [
-    { id: 1, firstName: "Tom", lastName: "Hughes" },
-    { id: 2, firstName: "Sarah", lastName: "Jay" },
-    { id: 3, firstName: "Penny", lastName: "Dew" }
+app.get("/api/animals", (req, res) => {
+  const animals = [
+    { id: 1, name: "Tom", type: "Tiger" },
+    { id: 2, name: "Sarah", type: "Swan" },
+    { id: 3, name: "Gary", type: "Goat" }
   ];
 
-  res.json(customers);
+  res.json(animals);
 });
 
 const port = 5000;
