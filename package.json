@@ -2,7 +2,7 @@
   "name": "react-express-boilerplate",
   "version": "1.0.0",
   "description": "react express boilerplate",
-  "main": "server.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HarryCandlish/React-Express-Boilerplate/issues"
   },
-  "homepage": "https://github.com/HarryCandlish/React-Express-Boilerplate#readme"
+  "homepage": "https://github.com/HarryCandlish/React-Express-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
