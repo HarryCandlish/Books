@@ -21,7 +21,7 @@ class Wars extends Component {
         <ul>
           {this.state.wars.map(war => (
             <li key={war.id}>
-              {war.name} : {war.type}
+              {war.title} : {war.details}
             </li>
           ))}
         </ul>
