@@ -18,10 +18,11 @@ class Wars extends Component {
     return (
       <div className="App">
         <h2>Red Cross</h2>
-        <ul>
+        <ul className="flex">
           {this.state.wars.map(war => (
-            <li key={war.id}>
-              {war.title} : {war.details}
+            <li className="post" key={war.id}>
+              <h2>{war.title}</h2>
+              {war.details}
             </li>
           ))}
         </ul>
