@@ -2,14 +2,14 @@ import React, { Component } from "react";
 
 import "./App.css";
 
-import Animals from "./components/wars/wars";
+import Books from "./components/books/books";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header" />
-        <Animals />
+        <Books />
       </div>
     );
   }
