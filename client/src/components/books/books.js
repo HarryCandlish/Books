@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./books.module.scss";
+import bookStyles from "./books.module.scss";
 
 class Books extends Component {
   constructor() {
@@ -18,11 +18,11 @@ class Books extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <h2>Book Journal</h2>
-        <ul className="flex">
+      <div>
+        <h2>Your Journal</h2>
+        <ul className={bookStyles.flex}>
           {this.state.books.map(book => (
-            <li className="post" key={book.id}>
+            <li className={bookStyles.post} key={book.id}>
               <h2>{book.title}</h2>
               {book.details}
             </li>
