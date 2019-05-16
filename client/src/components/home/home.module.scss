@@ -1,0 +1,22 @@
+.contents {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center space-between;
+  align-items: center;
+  border-radius: 2%;
+  max-width: 30%;
+}
