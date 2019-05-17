@@ -22,16 +22,22 @@ class Home extends Component {
       <div>
         <div className={homeStyles.container}>
           <img className={homeStyles.image} src="coffee.jpg" />
-          <ul className={homeStyles.contents}>
-            {this.state.contents.map(content => (
-              <li className={homeStyles.content} key={content.id}>
-                <h2>{content.title}</h2>
-                {content.details}
-                {content.description}
-              </li>
-            ))}
-          </ul>
+          <h1 className={homeStyles.title}>HAIRY READS</h1>
+          <p className={homeStyles.epigraph}>
+            "Because not everyone needs to know what you're reading"
+          </p>
+          <p className={homeStyles.author}>- Anonymous</p>
         </div>
+        <ul className={homeStyles.contents}>
+          {this.state.contents.map(content => (
+            <li className={homeStyles.content} key={content.id}>
+              <h2>{content.title}</h2>
+              <p>{content.details}</p>
+              <br />
+              <p>{content.description}</p>
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }
