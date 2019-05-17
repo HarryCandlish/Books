@@ -5,9 +5,8 @@
   margin: 0;
   width: 100%;
   padding: 0;
-
   ul {
-    background: #f8e9a1;
+    background: #d8c3a5;
     margin: 0;
     padding-left: 0;
     text-decoration: none;
@@ -15,21 +14,21 @@
 
   li {
     color: black;
-    background: #f8e9a1;
+    background: #d8c3a5;
     display: block;
     float: left;
     padding: 1rem;
     position: relative;
-    transition-duration: 0.5s;
   }
 
   a {
     text-decoration: none !important;
+    text-transform: capitalize;
   }
 
   li:hover {
     cursor: pointer;
-    background: white;
+    background: #e85a4f;
   }
 
   ul li ul {

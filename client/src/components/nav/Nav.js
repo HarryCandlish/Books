@@ -11,16 +11,16 @@ const Nav = () => {
             <img className={navStyles.image} src="./nav.png" />
             <ul>
               <li>
-                <a to="/books">Books </a>
+                <a to="/books">BOOKS</a>
               </li>
               <li>
-                <a to="/about">About </a>
+                <a to="/about">ABOUT</a>
               </li>
               <li>
-                <a to="/login">Login</a>
+                <a to="/login">LOGIN</a>
               </li>
               <li>
-                <a to="/">Home </a>
+                <a to="/">HOME</a>
               </li>
             </ul>
           </li>
