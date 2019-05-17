@@ -20,12 +20,12 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>Book Journal</h2>
         <ul className={homeStyles.contents}>
           {this.state.contents.map(content => (
             <li className={homeStyles.content} key={content.id}>
               <h2>{content.title}</h2>
               {content.details}
+              {content.description}
             </li>
           ))}
         </ul>
