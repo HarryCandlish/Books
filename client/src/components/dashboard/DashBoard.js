@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import bookStyles from "./books.module.scss";
+import dashBoardStyles from "./dashboard.module.scss";
 
-class Books extends Component {
+class DashBoard extends Component {
   constructor() {
     super();
     this.state = {
@@ -20,9 +20,9 @@ class Books extends Component {
     return (
       <div>
         <h2>Your Journal</h2>
-        <ul className={bookStyles.flex}>
+        <ul className={dashBoardStyles.flex}>
           {this.state.books.map(book => (
-            <li className={bookStyles.post} key={book.id}>
+            <li className={dashBoardStyles.post} key={book.id}>
               <h2>{book.title}</h2>
               {book.details}
             </li>
@@ -33,4 +33,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default DashBoard;
