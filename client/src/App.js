@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import Home from "./components/home/Home";
-import DashBoard from "./components/dashboard/Dashboard";
+import DashBoard from "./components/dashboard/DashBoard";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 

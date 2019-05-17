@@ -60,6 +60,28 @@ app.get("/api/contents", (req, res) => {
   res.json(contents);
 });
 
+app.get("/api/dashboard", (req, res) => {
+  const dashboard = [
+    {
+      id: 1,
+      title: "Reviews",
+      details: "Reviews and summaries"
+    },
+    {
+      id: 2,
+      title: "Read",
+      details: "Books You've read"
+    },
+    {
+      id: 3,
+      title: "Reading",
+      details: "Books you're currently reading."
+    }
+  ];
+
+  res.json(dashboard);
+});
+
 const port = 5000;
 
 app.listen(port, () => console.log(`server started on port ${port}`));
