@@ -26,7 +26,7 @@ class DashBoard extends Component {
   render() {
     return (
       <div>
-        <h2>Your Journal</h2>
+        <h2>Log</h2>
         <ul className={dashBoardStyles.dash}>
           {this.state.dashboard.map(dash => (
             <li className={dashBoardStyles.dashContent} key={dash.id}>
@@ -35,11 +35,14 @@ class DashBoard extends Component {
             </li>
           ))}
         </ul>
+        <h2>Recently Added Books</h2>
         <ul className={dashBoardStyles.bookFlex}>
           {this.state.books.map(book => (
             <li className={dashBoardStyles.books} key={book.id}>
               <h2>{book.title}</h2>
+
               <p>{book.details}</p>
+              <img className={dashBoardStyles.images} src={book.image} />
               <br />
               <p>{book.description}</p>
             </li>
